@@ -1,0 +1,21 @@
+[user]
+  name = Joakim Wimmerstedt
+  email = joakim.wimmerstedt@gmail.com
+[core]
+  excludesfile = ~/.gitignore
+  autocrlf = input
+[merge]
+  tool = opendiff
+  ff = only
+[push]
+  default = current
+[color]
+  ui = auto
+[alias]
+  co = checkout
+  pf = push --force-with-lease
+  cb = co -b
+[fetch]
+  prune = true
+[rebase]
+  autosquash = true
